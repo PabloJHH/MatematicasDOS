@@ -146,7 +146,7 @@ html, body{
 .top-nav{
   text-align:center; 
   justify-content: center;
-  /* padding: 0%; */
+  padding: 0.5%;
   width: 95%;
   
   }
@@ -154,11 +154,12 @@ html, body{
   .top-nav ul {
     margin-top: 0%;
     margin-bottom: 0.5%;
-    padding: .3%;
+    padding: .25%;
     border-radius: 10px;
   /* background-color: rgba(109, 195, 248, 0.747); */
   /* background-color:  rgba(218, 165, 32, 0.841); */
-    background-color: rgba(255, 198, 129, 0.188);
+    background-color: rgba(255, 255, 255, 0.188);
+    box-shadow: 0px 0px 10px 0px  rgb(0, 145, 255);
   }
   
   .top-nav li{
@@ -547,79 +548,83 @@ body.card{
     counter-reset: sectionCounter  cardCounter ;
           }
 
-
-h1.page-title{
-  font-size: 40px;
-  font-family: "Muli";
-  content:" ";
-  margin-bottom: -5px;
-  padding: 0px;
-  color: rgba(0, 111, 208, 0.789);
-}
-
-
-h1.page-subtitle{
-  font-size: 30px;
-  font-family: "Muli";
-  content:" ";
-  margin-bottom: 30px;
-  color: rgba(0, 111, 208, 0.867);
-}
-
-h1.title{
-  font-size: 35px;
-  font-weight: 900;
-  font-family: "Roboto";
-  margin-top: 0%;
-  padding: 2%;
-  content:" ";
-  color: rgb(7, 7, 7);
-}
-
-h2.title{
-  margin-top: -1%;
-  font-size: 30px;
-  font-family: "Multi";
-  color: rgb(7, 7, 7);
-}
-
-
-
-h1.number-title{
-  counter-reset: sectionCounter  cardCounter ;
-  font-family: "Muli";
-  font-size: 33px;
-}
-
-
-h1.number-subtitle:before{
-  font-family: "Muli";
- }
- 
-
-h1.number-title:before{
- counter-increment: sectionCounter;
- /*content:"Semana " counter(sectionCounter) " ";*/
- content:" " counter(sectionCounter) " ";
- font-family: "Muli";
- color: rgb(255, 255, 255);
-
-}
-
-
-
-
-
-h2.number-title{
-  font-size: 35px;
-  font-family: "Roboto";
-}
-
-h2.number-title:before{
- counter-increment: cardCounter;
- content: counter(sectionCounter)"."counter(cardCounter)"";
-}
-
+          h1.page-title{
+            font-size: 225%;
+            text-align: center;
+            /* font-family: "Muli"; */
+            font-family: 'Gelasio', serif;
+            /* font-family: 'IM Fell English', serif; */
+            /* content:" "; */
+            /* margin-bottom: -5px; */
+            padding: 0%;
+            width: 100%;
+            /* color: rgba(255, 0, 0, 0.789); */
+            /* color:  rgb(0,0,128);  */
+            color: rgb(184,134,11); 
+            /* font-weight: 500; */
+          }
+          
+          h1.page-subtitle{
+            font-size: 250%;
+            padding: 0%;
+            margin-bottom: -1.5%;
+            /* font-weight: 600; */
+            text-align: center;
+            font-family: 'Hina Mincho', serif;
+            /* font-family: 'Caprasimo', cursive; */
+            /* font-family: 'IM Fell English', serif; */
+            /* font-family: "Cinzel"; */
+            margin-top: 1%;
+            /* color:  rgb(0, 46, 145); */
+            /* color: rgb(184,134,11);  */
+            width: 100%;
+            /* color: rgb(7, 136, 250);  */
+            color: rgb(3, 89, 165); 
+          }
+          
+          h1.number-title{
+            font-size: 185%;
+            margin-top: -1.75%;
+            padding: 0.25%;
+            text-align: center;
+            /* font-weight: 800; */
+            /* font-family: "Muli"; */
+            font-family: 'Hina Mincho', serif;
+            /* font-size: 33px; */
+            color: rgb(3, 89, 165); 
+          }
+          
+          h1.number-title::before{
+            /* font-family: "Roboto"; */
+            font-family: 'Hina Mincho', serif;  
+            counter-increment: sectionCounter;
+            content: counter(semanaCounter)"."counter(sectionCounter)".";
+          }
+          
+          
+          h2.title{
+            margin-top: -1.5%;
+            padding: 0.25%;
+            font-size: 175%;
+            font-family: 'Hina Mincho', serif;
+            color: rgb(3, 89, 165); 
+          }
+          
+          h2.number-title{
+            margin-top: -1.5%;
+            padding: 0.25%;
+            font-size: 175%;
+            font-family: 'Hina Mincho', serif;
+            color: rgb(3, 89, 165); 
+          }
+          
+          h2.number-title::before{
+            /* font-family: "Roboto"; */
+            font-family: 'Hina Mincho', serif;
+            counter-increment: subsectionCounter;
+            content: counter(semanaCounter)"."counter(sectionCounter)"."counter(subsectionCounter)". ";
+          }
+          
 /* Para praticas  */
 
 h1.page-title-practica{
@@ -689,6 +694,40 @@ h1.number-title-practica::after{
     font-size: 20px;
     width: 70%;
     box-shadow: 10px 10px 15px  rgb( 112, 123, 124 );
+}
+
+
+.links-box{
+  /* background:  rgb(218, 237, 245); */
+    background: rgb(252, 252, 244);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5%;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    border: 0px solid  rgb(218,165,32);
+    margin: auto; 
+    /* margin-top: 50px; */
+    font-size: 26px;
+    width: 85%;
+    box-shadow: 0px 0px 10px 0px  rgb(218,165,32);
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.links-box a{ 
+  padding: 10px;
+  font-weight: 500;
+  /*color:  rgba(14, 137, 253, 0.801);*/
+  color:  rgb(255, 0, 0); 
+
+}
+
+.links-box a:visited{
+  color:  rgb(0, 0, 139); 
+  /* color:  rgba(14, 137, 253, 0.801); */
 }
 
 .definicion-box{
