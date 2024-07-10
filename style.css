@@ -620,6 +620,44 @@ h2.number-title:before{
  content: counter(sectionCounter)"."counter(cardCounter)"";
 }
 
+/* Para praticas  */
+
+h1.page-title-practica{
+  font-size: 225%;
+  text-align: center;
+  /* font-family: "Muli"; */
+  font-family: 'Gelasio', serif;
+  /* font-family: 'IM Fell English', serif; */
+  /* content:" "; */
+  /* margin-bottom: -5px; */
+  padding: 0%;
+  width: 100%;
+  /* color: rgba(255, 0, 0, 0.789); */
+  /* color:  rgb(0,0,128);  */
+  color: rgb(184,134,11); 
+  /* font-weight: 500; */
+}
+
+h1.number-title-practica{
+  font-size: 185%;
+  margin-top: -1.75%;
+  padding: 0.25%;
+  text-align: center;
+  /* font-weight: 800; */
+  /* font-family: "Muli"; */
+  font-family: 'Hina Mincho', serif;
+  /* font-size: 33px; */
+  color: rgb(3, 89, 165); 
+}
+
+h1.number-title-practica::after{
+  /* font-family: "Roboto"; */
+  font-family: 'Hina Mincho', serif;  
+  counter-increment: sectionCounter;
+  content: " " counter(semanaCounter)"."counter(sectionCounter) ".";
+}
+
+
 
 /*/////////////// for body boxes  /////////////////////*/
 
@@ -715,20 +753,25 @@ h2.number-title:before{
 }
 
 
-
 .nota-box{
-  background:  rgb(218, 237, 245);
-    color: black;
-    border-radius: 20px;
-    padding: 5%;
-    border: 3px solid  rgb(0, 120, 175);
-    margin: auto;
-    text-align: justify;
-    margin-bottom: 5%;
-    margin-top: 1%;
-    font-size: 20px;
-    width: 90%;
-    box-shadow: 2px 2px 15px 2px  rgb(31, 147, 201);
+  /* background:  rgb(218, 237, 245); */
+  background: rgb(252, 252, 244);
+  color: black;
+  border-radius: 20px;
+  padding: 5%;
+  border: 0px solid  rgb(218,165,32);
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 20px;
+  /* font-size: 110%; */
+  /* font-weight: 600; */
+  /* justify-content: space-evenly; */
+  width: 85%;
+  box-shadow: 0px 0px 10px 0px  rgb(218,165,32);
+
+
+
 
   /*
     background:  rgb( 255, 249, 205 );
