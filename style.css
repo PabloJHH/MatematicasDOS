@@ -1,7 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?&family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap'); /* font-family: 'Gelasio', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');/* font-family: 'Hina Mincho', serif; */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');/* font-family: 'EB Garamond', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap');/* font-family: 'Josefin Slab', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');/* font-family: 'Caprasimo', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');/* font-family: 'Mate SC', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');/* font-family: 'Fredericka the Great', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');/* font-family: 'Special Elite', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');/* font-family: 'Neucha', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Tangut&display=swap');/* font-family: 'Noto Serif Tangut', serif; */
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic&display=swap'); /* font-family: 'GFS Neohellenic', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&display=swap'); /* font-family: 'Oldenburg', cursive; */
 
 
 
@@ -75,7 +102,9 @@ html, body{
 .main-header{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    /* width: 100%; */
+    /* height: auto; */
+    align-items: center;
   }
 
   .horizontal{
@@ -86,7 +115,8 @@ html, body{
     /* align-content: flex-end; */
     /* justify-content: space-evenly; */
     /* justify-content: space-between;  */
-    width: 100%;
+    width: 95%;
+    height: auto;
     padding: .15%;
   }
 
@@ -117,8 +147,8 @@ html, body{
   text-align:center; 
   justify-content: center;
   /* padding: 0%; */
-  width: 100%;
-  font-size: 110%;
+  width: 95%;
+  
   }
   
   .top-nav ul {
@@ -126,22 +156,28 @@ html, body{
     margin-bottom: 0.5%;
     padding: .3%;
     border-radius: 10px;
+  /* background-color: rgba(109, 195, 248, 0.747); */
+  /* background-color:  rgba(218, 165, 32, 0.841); */
+    background-color: rgba(255, 198, 129, 0.188);
   }
   
   .top-nav li{
     display: inline;
     color: #ffffff;
     padding: 2%;
-  
+    /* font-size: 150%; */
+    font-family: 'IM Fell English';
   }
   
   .top-nav a{
     padding: 0.25%;
-    /* font-size: 100%; */
+    font-size: 135%;
     font-weight: 800;
     text-decoration: none;
     color: #000000;
-    font-family: "Muli";
+    /* font-family: "Muli"; */
+    font-family: 'IM Fell English';
+
     color:  rgb(0, 0, 0);
   }
   
@@ -153,7 +189,8 @@ html, body{
     padding: 0.25%;
     /* font-size: 100%; */
     border-radius: 5px;
-    font-family: "Muli";
+    /* font-family: "Muli"; */
+    font-family: 'IM Fell English';
     color:  rgba(255, 255, 255, 0.867);
   }
   
@@ -334,7 +371,6 @@ html, body{
     }
    
 
-
   .title-{
     font-size: 250%;
     font-weight: 600; 
@@ -358,15 +394,16 @@ html, body{
   }
 
   .title{
-    font-size: 300%;
+    font-size: 60px;
     /* font-weight: 800;  */
     text-align: center;
-    font-family: 'Mate SC', serif;
+    /* font-family: 'Caprasimo', cursive; */
     /* 'Poppins', serif; */
     /* font-family:'Poppins',serif; */
-    /* "Graduate", serif; */
-    /* 'Pangolin', cursive;*/
-    /* "VT323", monospace;'Fredericka the Great', cursive;
+    /* font-family: "Graduate", serif; */
+    /* font-family: 'Pangolin', cursive; */
+    /* font-family: "VT323", monospace; */
+    font-family:'Fredericka the Great', cursive;
     /* font-family: 'Jacques Francois Shadow', cursive; */
     /* font-family: 'Caprasimo', cursive; */
     /* font-family: 'Mate SC', serif; */
@@ -375,7 +412,13 @@ html, body{
     padding: 0%;
     /* color:  rgb(0, 46, 145); */
     /* color:  rgb(26,157,217);  */
-    color: rgba(4, 65, 104); 
+    /* color: rgba(4, 65, 104);  */
+    color: rgb(15, 108, 185);
+    /* color:  rgb(0,0,128);  */
+    /* color: rgb(184,134,11);  */
+
+
+
 
     width: 100%;
     line-height: 1.5em;
