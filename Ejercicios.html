@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC >
 
 <html lang="es">
- 
+
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <!-- Following part is mathjax, for latex-->
@@ -23,34 +23,57 @@
         },
     svg: {
         fontCache: 'global'
-    }
+    } 
 };
   </script>
-    <!-- CSS -->
 
+      <!-- This part restart counter of cards to start at n+1 -->
+      <style>
+        body.fondo-body{
+          counter-reset: temaCounter 0 sectionCounter;
+        }
+       
+        h1.page-title-practica{
+          counter-reset: semanaCounter 1 sectionCounter  subsectionCounter;
+        } 
+        
+  
+  
+      </style>
+  
+  
+    <!-- CSS -->
+ 
     <link rel="stylesheet" , href="./style.css" />
     <!-- Top Menu  -->
     
+
+
     <header class="main-header">
-      <div class="horizontal">
-        <img src="./Imagenes/examen.jpeg" width="7%" height="auto">
-        <div class="title">Matemáticas II</div>
-        <img src="./Imagenes/libro.jpeg" width="7%" height="auto">
+      <div class="logo_superior_umar">
+        <img src="./Imagenes/examen.jpeg" width="100%" height="auto">
       </div>
-    <nav class="top-nav">
-      <!-- <div class="linea_arriba"></div> -->
-      <ul>
-      <li> <a href="https://pablojhh.github.io/MatematicasDOS/Notas.html"> Notas  </a> </li>
-      <!-- <li> <a href="https://pablojhh.github.io/MatematicasDOS/"> Acerca de</a></li> -->
-      <!-- <li> <a href="https://pablojhh.github.io/MatematicasDOS/Registro.html" target="_blank"> Registro</a></li> -->
-      <li> <a href="https://pablojhh.github.io/MatematicasDOS/Ejercicios.html"> Ejercicios </a> </li>
-      <!-- <li> <a href="https://jornadasturismo.github.io/4JT2023/Ponentes.html"> Memorias </a> </li> -->
-      <!-- <li> <a href="https://pablojhh.github.io/MatematicasDOS/"> Memorias </a> </li>  -->
-      </ul>
-      <!-- <div class="linea_abajo"></div> -->
-      </nav>
+      <div class="contenedor_titulo">  
+        <div class="title">Matemáticas II</div>
+      </div>
+      <div class="logo_superior_umar">
+        <img src="./Imagenes/libro.jpeg" width="100%" height="auto">
+      </div>
+     
+      </div>
+
+  
     </header>
+
+<nav class="top-nav">
+    <ul>
+      <li> <a href="https://pablojhh.github.io/MatematicasDOS/Notas.html"> Notas  </a> </li>
+      <li> <a href="https://pablojhh.github.io/MatematicasDOS/Ejercicios.html"> Ejercicios </a> </li>
+    </ul>
+</nav>
+
     
+
 
 
       <!-- This part is for title in tab-->
